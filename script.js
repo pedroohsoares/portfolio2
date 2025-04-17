@@ -26,12 +26,11 @@ function digitar() {
     if (i < texto.length) {
         elemento.innerHTML += texto.charAt(i);
         i++;
-        setTimeout(digitar, 100); // velocidade da digitação
+        setTimeout(digitar, 100); 
     }
 }
 digitar();
 
-// --------- Alternância de Tema (Claro/Escuro) ---------
 function alternarTema() {
     document.body.classList.toggle("dark-mode");
 }
